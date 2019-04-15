@@ -1,0 +1,130 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 45.79vw;
+}
+.fundo
+{
+	position: relative;
+	width: 100%;
+	height: 45.79vw;
+}
+.imgfundo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.cadastro
+{
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	left: 35%;
+	top: -80%;
+	width: 30%;
+	height: 60%;
+	display: block;
+	background-color:  rgba(255,255,225,.3);
+	overflow:hidden;
+}
+.cadastro .loginin
+{
+	height:20%;
+	font-family: Fredoka One;
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	animation: animate 20s linear infinite;
+}
+@keyframes animate{
+	0%{	background-color: skyblue;}
+	50%{	background-color: steelblue;}
+	100%{	background-color: skyblue;}
+}
+.cadastro .loginin font
+{
+	width: 100%;
+	height: 100%;
+	font-size: 3.5vw;
+	float: left;
+	text-align: center;
+	position: relative;
+	color: black;
+}
+.cadastro .input-group
+{
+	position: relative;
+	margin-top: -3%;
+	padding: 0;
+	font-size: 6.27vw;
+}
+input,i
+{
+	position: relative;
+	font-size: 1vw;
+	margin-top: -3%;
+	outline: none;
+	left: 13%;
+}
+input
+{
+	padding: 2% 2% 2% 2%;
+	width: 60%;
+	font-family: Trattatello, fantasy;
+	font-size: 1vw;
+}
+i
+{
+	font-size: 1.5vw;
+	color: black;
+}
+input[type="submit"]
+{
+	cursor: pointer;
+	outline: none;
+	background-color: white;
+	position: relative;
+	border:none;
+	animation: animate 20s linear infinite;
+	left: 20%;
+	color:;
+	font-size: 1.5vw;
+}
+input[type="text"],input[type="password"]
+{
+	border:0.5vh outset black;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background-color:transparent;
+	top: -2%;
+}
+::-webkit-input-placeholder {
+	color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color: black;  
+}
+
+:-ms-input-placeholder {  
+	color: black;  
+}
+.logo
+{
+	position: absolute;
+	height: 15%;
+	width: 15%;
+	left: 7%;
+}
+
+.cadastro:hover ~ .fundo!
+{
+	opacity: 0.1;
+}
